@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match JSON snapshot. 1`] = `
+<div>
+  Hola
+</div>
+`;
+
+exports[`App should match tree snapshot. 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Hola",
+    },
+    "rendered": Array [
+      "Hola",
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
