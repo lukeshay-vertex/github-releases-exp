@@ -1,5 +1,21 @@
 {
-  "extends": "@lukeshay/typescript-config/tsconfig-web",
-  "include": ["./src/**/*.jsx", "./src/**/*.js", "./src/**/*.tsx", "./src/**/*.ts"],
-  "exclude": ["./node_modules/**/*", "./src/**/__tests__/**/*", "./src/**/*.spec.*", "./src/**/*.test.*"]
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "esnext",
+    "jsx": "react",
+    "target": "es5",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules"],
+  "jsx": "preserve",
+  "compileOnSave": true
 }

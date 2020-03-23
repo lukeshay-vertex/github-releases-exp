@@ -150,7 +150,7 @@ const DEVELOPMENT = {
   ],
   devServer: {
     historyApiFallback: true,
-    contentBase: './',
+    contentBase: SRC_DIR,
     host: '0.0.0.0',
     hot: true,
     port: 3000,

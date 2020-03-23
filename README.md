@@ -1,59 +1,31 @@
-<h1 align="center">Welcome to Route Rating Web Application 👋</h1>
-<p>
-  <a href='https://jenkins.ops.lukeshay.com/job/Deploy/job/web-app-deploy/'>
-    <img src='https://jenkins.ops.lukeshay.com/buildStatus/icon?job=Deploy%2Fweb-app-deploy'>
-  </a>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/LukeShay/route-rating.wiki.git" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/LukeShay/route-rating-web-app/blob/master/LICENSE" target="_blank">
-    <img alt="License: LGPL" src="https://img.shields.io/badge/License-LGPL-yellow.svg" />
-  </a>
-</p>
+# react-ts-template
 
-> Web application for Route Rating.
+A template that can be used to create react-typescript web applications. It uses Jest and react-test-renderer for testing. Webpack is used to package the application. You will also optionally need Docker and Make if you would like you build the docker image. This is setup for use with github actions as well.
 
-### 🏠 [Homepage](http://lukeshay.com)
+# How to run
 
-## Install
+`yarn start`
 
-```sh
-yarn install
-```
+# How to test
 
-## Usage
+`yarn test`
 
-```sh
-yarn start
-```
+# How to build
 
-## Run tests
+`yarn build`
 
-```sh
-yarn test
-```
+# How to format
 
-## Author
+`yarn format`
 
-👤 **Luke Shay**
+# How to lint
 
-- Github: [@LukeShay](https://github.com/LukeShay)
-- LinkedIn: [@luke-shay](https://linkedin.com/in/luke-shay)
+`yarn lint`
 
-## Contributing
+# How to build docker image
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/LukeShay/route-rating-web-app/issues). You can also take a look at the [contributing guide](https://github.com/LukeShay/route-rating/wiki/Contribution).
+`make prebuild && make build`
 
-## Show your support
+# Help
 
-Give a ⭐️ if this project helped you!
-
-## License
-
-Copyright © 2020 [Luke Shay](https://github.com/LukeShay).<br />
-This project is [LGPL](https://github.com/LukeShay/route-rating-web-app/blob/master/LICENSE) licensed.
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+Drop an issue if you are having problems using this.

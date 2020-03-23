@@ -1,5 +1,5 @@
 {
-  "name": "front_end",
+  "name": "react-ts-template",
   "version": "*",
   "private": true,
   "homepage": "http://lukeshay.com",
@@ -23,6 +23,7 @@
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "@types/react-router-dom": "^5.1.3",
+    "@vertexvis/viewer": "^0.3.2-3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-inlinesvg": "^1.2.0",
@@ -64,7 +65,7 @@
     "webpack-merge": "^4.2.2"
   },
   "eslintConfig": {
-    "extends": "@lukeshay/eslint-config-react-typescript"
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
