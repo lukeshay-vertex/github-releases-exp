@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: git tag `cat package.json| jq ".version"`
+      - run: git tag `cat package.json | jq ".version" | sed 's/"//g'`
       - run: git push origin --tag `cat package.json | jq ".version" | sed 's/"//g'`
 
   # push-image:
