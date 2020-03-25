@@ -1,6 +1,6 @@
 {
   "name": "react-ts-template",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "private": true,
   "homepage": "http://lukeshay.com",
   "main": "src/index.tsx",
