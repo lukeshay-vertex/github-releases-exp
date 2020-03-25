@@ -35,6 +35,13 @@ jobs:
       - run: yarn --disable-progress
       - run: yarn test
 
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git tag `cat package.json| jq ".version"`
+      - run: git push origin --tag `cat package.json| jq ".version"`
+
   # push-image:
   #   runs-on: ubuntu-latest
   #   needs: [build, lint, test]
